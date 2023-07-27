@@ -195,12 +195,9 @@ main .main-buttons button:hover {
 /*Pie de pagina*/
 
 footer {
+    position: fixed;
     width: 100%;
     bottom:0;
-
-}
-
-footer ul {
     display: flex;
     justify-content: center;
     background-color: #e4e4e4;
@@ -208,20 +205,35 @@ footer ul {
     justify-content: space-between;
     border-top: 1px solid #dadce0;
     font-size: 14px;
-    margin-top: 24px;
+
 }
 
-ul .footer-left {
+.footer-left {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: space-between;
+
 }
 
-ul .footer-left a{
+.footer-left a{
     color: #70757a;
-    margin: 30px;
+    margin: 50px;
+}
+
+.footer-rigth{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer-rigth a{
+    color: #70757a;
+    margin: 50px;
 }
